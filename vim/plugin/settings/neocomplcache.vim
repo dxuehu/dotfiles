@@ -12,8 +12,8 @@ let g:neocomplcache_max_list = 5
 " words less than 3 letters long aren't worth completing
 let g:neocomplcache_auto_completion_start_length = 3
 
-" Map standard Ctrl-N completion to Cmd-Space
-"inoremap <D-Space> <C-n>
+"uses Ctrl N, trying to remap to TAB here but doesn't work
+"inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " Define keyword.
 if !exists('g:neocomplcache_keyword_patterns')

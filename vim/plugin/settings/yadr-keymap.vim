@@ -110,9 +110,9 @@ autocmd FileType javascript map <buffer> <D-k> }
 autocmd FileType javascript map <buffer> <D-j> {
 
 
-" Command-/ to toggle comments
-map <D-/> :TComment<CR>
-imap <D-/> <Esc>:TComment<CR>i
+" Ctrl-c to toggle comments
+nnoremap <c-c> :TComment<CR>
+inoremap <c-c> <Esc>:TComment<CR>i
 
 "GitGrep - open up a git grep line, with a quote started for the search
 nnoremap ,gg :GitGrep ""<left>

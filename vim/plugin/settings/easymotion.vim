@@ -14,8 +14,8 @@ call EasyMotion#InitOptions({
 \ })
 
 " Make EasyMotion more yellow, less red
-hi clear EasyMotionTarget
-hi! EasyMotionTarget guifg=yellow
+"hi clear EasyMotionTarget
+"hi link EasyMotionTarget guifg=yellow
 
 nmap ,<ESC> ,,w
 nmap ,<S-ESC> ,,b
