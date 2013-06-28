@@ -4,3 +4,5 @@
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export EDITOR=/usr/local/bin/vim
 PATH="/usr/local/bin:$PATH"
+
+alias v='f -e vim' # quick opening files with vim
