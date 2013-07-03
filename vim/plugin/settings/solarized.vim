@@ -52,15 +52,15 @@ hi! link htmlTagName Type
 " they are now just differently saturated and
 " valued riffs on the background color, making
 " everything play together just a little more nicely.
-"hi! VertSplit guifg=#003745 cterm=NONE term=NONE ctermfg=NONE ctermbg=NONE
+hi! VertSplit guifg=#003745 cterm=NONE term=NONE ctermfg=NONE ctermbg=NONE
 "hi! LineNR guifg=#004C60 gui=bold guibg=#002B36 ctermfg=146
 "hi! link NonText VertSplit
 "hi! Normal guifg=#77A5B1
 "hi! Constant guifg=#00BCE0
 "hi! Comment guifg=#52737B
-"hi! link htmlLink Include
+hi! link htmlLink Include
 "hi! CursorLine cterm=NONE gui=NONE
-"hi! Visual ctermbg=233
+hi! Visual ctermbg=233
 " hi! Type gui=bold
 "hi! EasyMotionTarget guifg=#4CE660 gui=bold
 "hi EasyMotionTarget ctermbg=none ctermfg=red
