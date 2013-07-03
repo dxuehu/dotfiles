@@ -6,9 +6,9 @@ vim/view
 vim/.netrwhist
 vim/tmp
 vim/spell
-vim/after/.vimrc.after
+# vim/after/.vimrc.after
 vim/.vundles.local
-vim/bundle
+# vim/bundle
 .netrwhist
 bin/subl
 tags
