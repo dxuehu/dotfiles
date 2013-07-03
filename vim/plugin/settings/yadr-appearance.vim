@@ -2,12 +2,12 @@
 
 " http://ethanschoonover.com/solarized/vim-colors-solarized
 let g:solarized_termtrans=1 
-colorscheme solarized
 set background=dark
+colorscheme solarized
 
 if has("gui_running")
   "tell the term has 256 colors
-  set t_Co=256
+  "set t_Co=256
 
   " Show tab number (useful for Cmd-1, Cmd-2.. mapping)
   " For some reason this doesn't work as a regular set command,
